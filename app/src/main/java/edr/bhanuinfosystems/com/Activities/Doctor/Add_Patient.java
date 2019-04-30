@@ -140,7 +140,6 @@ String p_gen;
         }
         return result;
 
-
     }
 
     private void setupview() {

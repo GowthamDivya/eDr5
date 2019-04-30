@@ -34,7 +34,7 @@ public class Registered_doc_list extends AppCompatActivity {
     private RequestQueue requestQueue ;
     private List<Doctor> list ;
     private RecyclerView recyclerView ;
-    public static final String URL_doclist = "http://192.168.0.10/backend/doclist.php";
+    public static final String URL_doclist = "http://192.168.0.70/backend/doclist.php";
 
 
     @Override

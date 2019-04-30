@@ -2,9 +2,9 @@ package edr.bhanuinfosystems.com.model;
 
 public class physcial_examination {
 
-    String height,weight,temp,bp,sugar;
+     int height,weight,temp,bp,sugar;
 
-    public physcial_examination(String height, String weight, String temp, String bp, String sugar) {
+    public physcial_examination(int height, int weight, int temp, int bp, int sugar) {
         this.height = height;
         this.weight = weight;
         this.temp = temp;
@@ -12,23 +12,43 @@ public class physcial_examination {
         this.sugar = sugar;
     }
 
-    public String getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public String getWeight() {
+    public int getWeight() {
         return weight;
     }
 
-    public String getTemp() {
+    public int getTemp() {
         return temp;
     }
 
-    public String getBp() {
+    public int getBp() {
         return bp;
     }
 
-    public String getSugar() {
+    public int getSugar() {
         return sugar;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public void setTemp(int temp) {
+        this.temp = temp;
+    }
+
+    public void setBp(int bp) {
+        this.bp = bp;
+    }
+
+    public void setSugar(int sugar) {
+        this.sugar = sugar;
     }
 }

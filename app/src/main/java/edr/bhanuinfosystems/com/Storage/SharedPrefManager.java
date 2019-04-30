@@ -171,11 +171,11 @@ public void pe(physcial_examination pe)
 {
     SharedPreferences sharedPreferences = mCtx.getSharedPreferences(MYDATA, Context.MODE_PRIVATE);
     SharedPreferences.Editor editor = sharedPreferences.edit();
-    editor.putString(HEIGHT,pe.getHeight());
-    editor.putString(WEIGHT, pe.getWeight());
-    editor.putString(TEMP, pe.getTemp());
-    editor.putString(BP, pe.getBp());
-    editor.putString(SUGAR, pe.getSugar());
+    editor.putInt(HEIGHT,pe.getHeight());
+    editor.putInt(WEIGHT, pe.getWeight());
+    editor.putInt(TEMP, pe.getTemp());
+    editor.putInt(BP, pe.getBp());
+    editor.putInt(SUGAR, pe.getSugar());
     editor.apply();
 
 }

@@ -46,7 +46,10 @@
                 android:id="@+id/hid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="" />
+                android:hint=""
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
 
 
             <TextView
@@ -63,7 +66,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:hint="" />
+                android:hint=""
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
 
             <TextView
                 android:textColor="@color/buttons"
@@ -77,7 +83,10 @@
                 android:id="@+id/tempid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="" />
+                android:inputType="number"
+                android:hint=""
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
 
             <TextView
                 android:textColor="@color/buttons"
@@ -91,7 +100,10 @@
                 android:id="@+id/idbp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="" />
+                android:hint=""
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
 
             <TextView
                 android:textColor="@color/buttons"
@@ -105,13 +117,16 @@
                 android:id="@+id/idsu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="" />
+                android:hint=""
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
 
         </GridLayout>
 
     <Button
         android:id="@+id/ph_next_btn"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/buttons"

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import edr.bhanuinfosystems.com.Activities.Admin.Admin_Login;
+import edr.bhanuinfosystems.com.Activities.Complaints.Complaint_List;
 import edr.bhanuinfosystems.com.Activities.Doctor.Doctor_Register;
 import edr.bhanuinfosystems.com.Activities.Doctor.Doctor_SignIn;
 import edr.bhanuinfosystems.com.Activities.Examination.Add_Examination;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void patlogin(View view) {
+        Intent j = new Intent(this,Add_Examination.class);
+        startActivity(j);
 
     }
 

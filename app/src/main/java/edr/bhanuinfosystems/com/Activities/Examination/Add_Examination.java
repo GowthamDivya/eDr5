@@ -42,8 +42,7 @@ public class Add_Examination extends AppCompatActivity {
                     editor.putString("temp",t);
                     editor.putString("bp",b);
                     editor.putString("sugar",s);
-                    editor.commit();
-
+                    editor.apply();
                     Toast.makeText(Add_Examination.this, "Saved Sucessfully", Toast.LENGTH_SHORT).show();
                     Intent i  = new Intent(Add_Examination.this, Make_Prescription.class);
                     startActivity(i);
